@@ -1,0 +1,20 @@
+@import "variables";
+@import "normalize";
+@import "formalize";
+@import "header";
+@import "content";
+*{
+  list-style: none;
+  text-decoration: none;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+a , p {
+  font-style: $my-font;
+}
